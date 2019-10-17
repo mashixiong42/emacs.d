@@ -65,14 +65,14 @@
 (require 'init-ibuffer)
 (require 'init-flycheck)
 
-(require 'init-recentf)
+;; (require 'init-recentf)
 (require 'init-smex)
 (require 'init-ivy)
 ;;(require 'init-helm)
 (require 'init-hippie-expand)
 (require 'init-company)
 (require 'init-windows)
-(require 'init-sessions)
+;; (require 'init-sessions)
 (require 'init-mmm)
 
 (require 'init-editing-utils)
@@ -92,8 +92,8 @@
 (require 'init-csv)
 (require 'init-erlang)
 (require 'init-javascript)
-(require 'init-php)
-(require 'init-org)
+;; (require 'init-php)
+;; (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
 (require 'init-css)
@@ -103,15 +103,15 @@
 (require 'init-haskell)
 (require 'init-elm)
 (require 'init-purescript)
-(require 'init-ruby)
-(require 'init-rails)
+;; (require 'init-ruby)
+;; (require 'init-rails)
 (require 'init-sql)
-(require 'init-rust)
+;; (require 'init-rust)
 (require 'init-toml)
 (require 'init-yaml)
 (require 'init-docker)
 (require 'init-terraform)
-;;(require 'init-nix)
+;; (require 'init-nix)
 (maybe-require-package 'nginx-mode)
 
 (require 'init-paredit)
@@ -121,13 +121,18 @@
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
 
+(require 'init-typescript)
+
 (when *spell-check-support-enabled*
   (require 'init-spelling))
 
 (require 'init-misc)
 
 (require 'init-folding)
-(require 'init-dash)
+
+
+;; init scala
+(require 'init-scala)
 
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
